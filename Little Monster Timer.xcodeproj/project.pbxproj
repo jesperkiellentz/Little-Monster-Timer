@@ -12,6 +12,9 @@
 		CD13E6E32285984B0088E8F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD13E6E12285984B0088E8F0 /* Main.storyboard */; };
 		CD13E6E52285984C0088E8F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD13E6E42285984C0088E8F0 /* Assets.xcassets */; };
 		CD13E6E82285984C0088E8F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD13E6E62285984C0088E8F0 /* LaunchScreen.storyboard */; };
+		CD13E6F022859D3E0088E8F0 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13E6EF22859D3E0088E8F0 /* ProgressBar.swift */; };
+		CD13E6F22285B79C0088E8F0 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13E6F12285B79C0088E8F0 /* CustomColors.swift */; };
+		CD13E6F42285CDBF0088E8F0 /* CountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13E6F32285CDBF0088E8F0 /* CountdownTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CD13E6E42285984C0088E8F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD13E6E72285984C0088E8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD13E6E92285984C0088E8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD13E6EF22859D3E0088E8F0 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		CD13E6F12285B79C0088E8F0 /* CustomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		CD13E6F32285CDBF0088E8F0 /* CountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				CD13E6DD2285984B0088E8F0 /* AppDelegate.swift */,
+				CD13E6EF22859D3E0088E8F0 /* ProgressBar.swift */,
+				CD13E6F32285CDBF0088E8F0 /* CountdownTimer.swift */,
 				CD13E6DF2285984B0088E8F0 /* ViewController.swift */,
 				CD13E6E12285984B0088E8F0 /* Main.storyboard */,
 				CD13E6E42285984C0088E8F0 /* Assets.xcassets */,
 				CD13E6E62285984C0088E8F0 /* LaunchScreen.storyboard */,
 				CD13E6E92285984C0088E8F0 /* Info.plist */,
+				CD13E6F12285B79C0088E8F0 /* CustomColors.swift */,
 			);
 			path = "Little Monster Timer";
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD13E6F42285CDBF0088E8F0 /* CountdownTimer.swift in Sources */,
 				CD13E6E02285984B0088E8F0 /* ViewController.swift in Sources */,
+				CD13E6F022859D3E0088E8F0 /* ProgressBar.swift in Sources */,
+				CD13E6F22285B79C0088E8F0 /* CustomColors.swift in Sources */,
 				CD13E6DE2285984B0088E8F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
